@@ -10,5 +10,8 @@ import scrapy
 
 class ArticlespiderItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    time = scrapy.Field()
+    like = scrapy.Field()
+    data = scrapy.Field()
+    # pass
